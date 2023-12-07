@@ -4,6 +4,14 @@ function reFetchEmails() {
   });
 }
 
+function callApi() {
+    fetch(
+        `https://jsonplaceholder.typicode.com/users/${randomNumber(1, 10)}`
+      )
+    .then((response) => response.json())
+    .then((json) => {})
+}
+
 let prevEmails = [];
 
 reFetchEmails();
@@ -14,6 +22,11 @@ const allInputs = document.querySelectorAll(
 );
 
 setTimeout(() => {
+
+    //call api if email inputs are found
+    callApi()
+
+
   allInputs.forEach((input) => {
     input.addEventListener("focusout", function () {
       // let suggestions = document.getElementById('pm-suggestions');
