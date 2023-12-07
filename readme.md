@@ -15,8 +15,9 @@ Instead of downloading the extension build from a provided link, you can clone t
 Open your terminal or command prompt.
 Navigate to the directory where you want to clone the extension repository.
 Run the following command to clone the repository:
+```
 git clone https://github.com/Adebayo27/email-manager-chrome-extension
-
+```
 Step 2: Access Chrome Extensions Settings
 Open your Google Chrome browser and click on the three vertical dots in the top-right corner to access the Chrome menu. From the menu, select “Settings.”
 
