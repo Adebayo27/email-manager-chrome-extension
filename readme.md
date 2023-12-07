@@ -1,11 +1,13 @@
 Email Manager chrome extension
 
-1. Store emails
-2. Autofill emails
-3. Generate random emails
+   
+1. Identify when a page has a form with an email field
+2. Store emails
+3. Autofill emails
+4. Generate random emails
 
 Technologies used
-Html, CSS, Javascript
+Html, CSS, Javascript, manifest v3
 
 Steps to run locally
 Step 1: Clone the Extension Repository
