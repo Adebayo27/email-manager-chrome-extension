@@ -1,6 +1,6 @@
 {
-    "name": "Password Manager",
-    "description": "The best password manager in the market.",
+    "name": "Email Manager",
+    "description": "The best email manager in the market.",
     "version": "0.0.1",
     "manifest_version": 3,
     "action": {
